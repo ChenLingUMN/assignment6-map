@@ -36,7 +36,7 @@ jobs:
           CENSUS_KEY: ${{ secrets.MAPS_API_KEY }}
         with:
           to: html
-          path: assignment6-map.qmd
+          path: assignment6.qmd
       - name: Setup git config
         run: |
           git config user.name "GitHub Actions Bot"
