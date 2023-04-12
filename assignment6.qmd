@@ -17,7 +17,6 @@ library(plotly)
 library(sf)
 library(ggmap)
 library(tidycensus)
-census_api_key("CENSUS_KEY")
 
 ```
 
